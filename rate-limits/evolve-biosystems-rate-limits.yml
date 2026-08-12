@@ -1,0 +1,12 @@
+generated: '2026-08-12'
+method: searched
+source: https://www.infinanthealth.com/
+note: >-
+  Not applicable rather than merely undocumented. Infinant Health publishes no API, so
+  there is no rate limit, window, burst allowance, exhaustion status code or
+  RateLimit-* / Retry-After response header to record. Searched the full
+  www.infinanthealth.com sitemap and www.evivo.com on 2026-08-12; no developer,
+  API reference or technical documentation page exists on either host.
+limit_count: 0
+limits: []
+headers: []

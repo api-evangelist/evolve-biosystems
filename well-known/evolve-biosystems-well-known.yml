@@ -1,0 +1,72 @@
+generated: '2026-08-12'
+method: probed
+source: live HTTPS probes of every Infinant Health / Evivo host
+note: >-
+  Every /.well-known/ path probed returned 404 on both hosts. No pointer of type
+  WellKnown, SecurityTxt or AgentCard is emitted in apis.yml, because this file
+  records an ABSENCE, not a served surface. Recorded as valid negative evidence.
+hosts:
+- host: www.infinanthealth.com
+  role: corporate website (HubSpot CMS)
+  probes:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/oauth-protected-resource
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
+  - path: /.well-known/mcp.json
+    status: 404
+    file: null
+- host: www.evivo.com
+  role: Evivo consumer product site (WordPress)
+  probes:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/oauth-protected-resource
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
+  - path: /.well-known/mcp.json
+    status: 404
+    file: null
+summary:
+  hosts_probed: 2
+  paths_probed: 18
+  hits: 0
