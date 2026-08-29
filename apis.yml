@@ -13,6 +13,17 @@ description: 'Infinant Health (formerly Evolve Biosystems) is a privately held l
   trials, peer-reviewed publications and investor material, but no developer program,
   public API, SDK or machine-readable API contract could be found on any of its hosts.'
 url: https://raw.githubusercontent.com/api-evangelist/evolve-biosystems/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://www.infinanthealth.com/hs-fs/hubfs/Infinant_logo_K_no_mark_new.png?width=500&height=250&name=Infinant_logo_K_no_mark_new.png
 x-type: company
 x-source: harvest:secondary-market
