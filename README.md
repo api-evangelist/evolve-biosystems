@@ -64,5 +64,95 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Infinant Health is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://forgeglobal.com/evolve-biosystems_stock/
+Infinant Health (formerly Evolve Biosystems) is a privately held life-sciences company in Sacramento, California, spun out of the Foods for Health Institute at the University of California, Davis after more than a decade of research into the infant gut microbiome. Its foundational discovery is B. infantis EVC001, a strain of Bifidobacterium longum subsp. infantis that metabolizes human milk oligosaccharides and has largely disappeared from infants in industrialized countries. The company commercializes that strain as Evivo, a consumer infant probiotic sold direct-to-consumer and through retail, and is developing INF108 as a drug candidate intended to reduce necrotizing enterocolitis in premature infants. Infinant Health is a biotechnology and consumer-health manufacturer rather than a software company: it publishes clinical trials, peer-reviewed publications and investor material, but no developer program, public API, SDK or machine-readable API contract could be found on any of its hosts.
+
+**Areas:** Company · Biotechnology · Life Sciences · Health · Infant Nutrition · Microbiome · Probiotics · Consumer Health · Pharmaceuticals · Clinical Research
+
+## Infinant Health on APIs.io
+
+Everything profiled for Infinant Health is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/evolve-biosystems/](https://apis.io/providers/evolve-biosystems/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Evolve Biosystems Domain Security](https://apis.io/security/evolve-biosystems/evolve-biosystems-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Evolve Biosystems Plans Pricing](https://apis.io/plans/evolve-biosystems/evolve-biosystems-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Evolve Biosystems Rate Limits](https://apis.io/rate-limits/evolve-biosystems/evolve-biosystems-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.infinanthealth.com/)
+- [Support](https://www.infinanthealth.com/contact-us)
+- [Blog](https://www.infinanthealth.com/blog)
+- [Terms of service](https://www.infinanthealth.com/terms-of-service)
+- [Privacy policy](https://www.infinanthealth.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 10.4** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 49.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 21.1 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.9** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/evolve-biosystems/](https://apis.io/providers/evolve-biosystems/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Infinant Health: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/evolve-biosystems/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
